@@ -1,0 +1,1 @@
+import{r as t}from"../index-044285d2.js";window.lwConfig.services.wecom;const e=window.lwConfig.services.wecom+"/poster";function n(n){return t({url:e+"/update",method:"put",data:n})}function o(n){return t({url:e+"/insert",method:"post",data:n})}function r(n){return t({url:e+"/entity/"+n})}export{o as a,r as g,n as u};

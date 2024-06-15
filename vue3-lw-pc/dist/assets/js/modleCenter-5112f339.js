@@ -1,0 +1,1 @@
+import{r}from"../index-044285d2.js";const t=window.lwConfig.services.wecom+"/tlp";function e(e){return r({url:t+"/addOrUpdate",method:"post",data:e})}function o(e){return r({url:t+`/preview/${e}`})}export{e as a,o as t};

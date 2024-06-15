@@ -1,0 +1,1 @@
+import{r}from"../index-044285d2.js";const n=window.lwConfig.services.wecom+"/tlp";function o(o){return r({url:n+"/list",params:o})}function t(o){return r({url:n+"/del/"+o,method:"DELETE"})}export{o as g,t as r};

@@ -1,0 +1,1 @@
+import{r}from"../index-044285d2.js";const t=window.lwConfig.services.wecom+"/corp";function n(){return r({url:t+"/findCurrentCorpAccount"})}function o(n){return r({url:t+"/addOrUpdate",method:"post",data:n})}function e(){return r({url:t+"/findDefaultWelcomeMsg"})}function u(n){return r({url:t+"/editWelComeMsg",method:"post",data:n})}export{o as a,e as b,n as g,u as s};
